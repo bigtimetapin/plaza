@@ -36,21 +36,21 @@ a:link, a:visited {
 $family-secondary: "Press Start 2P", BlinkMacSystemFont, -apple-system, "Helvetica", "Arial", sans-serif;
 
 @font-face {
-  font-family: WorkSans;
-  src: url("../fonts/WorkSans-SemiBold.ttf") format("truetype");
+  font-family: AppleGaramond;
+  src: url("../fonts/AppleGaramond.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Imbue;
-  src: url("../fonts/Imbue-Medium.ttf") format("truetype");
+  font-family: AppleGaramondLight;
+  src: url("../fonts/AppleGaramond-Light.ttf") format("truetype");
 }
 
 .has-font-1 {
-  font-family: WorkSans, sans-serif;
+  font-family: AppleGaramond, sans-serif;
 }
 
 .has-font-2 {
-  font-family: Imbue, sans-serif;
+  font-family: AppleGaramondLight, sans-serif;
 }
 
 .has-opacity {
@@ -78,26 +78,6 @@ $family-secondary: "Press Start 2P", BlinkMacSystemFont, -apple-system, "Helveti
 
 .has-black-text {
   color: #241F20;
-}
-
-.has-sky-blue {
-  background-color: #3D92CA;
-}
-
-.has-sky-blue-text {
-  color: #3D92CA !important;
-}
-
-.has-hyper-blue {
-  background-color: #002BFF;
-}
-
-.has-ver-blue {
-  background-color: #00F4EF;
-}
-
-.has-orange {
-  background-color: #FF3C24;
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
