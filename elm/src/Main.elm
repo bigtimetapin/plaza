@@ -23,6 +23,7 @@ import View.Admin.Admin
 import View.Create.Create
 import View.Error.Error
 import View.Hero
+import View.Home.Home
 
 
 main : Program () Model Msg
@@ -154,10 +155,13 @@ view model =
                 Admin administrator ->
                     hero <| View.Admin.Admin.body administrator
 
+                Home ->
+                    hero <| View.Home.Home.body
+
                 Error error ->
                     hero (View.Error.Error.body error)
     in
-    { title = "somos-crowd"
+    { title = "plaza"
     , body =
         [ html
         ]

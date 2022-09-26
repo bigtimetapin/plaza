@@ -11,13 +11,15 @@ import Url.Parser as UrlParser exposing ((</>))
 type State
     = Create Creator
     | Admin Admin
+    | Home
     | Error String
 
 
 urlParser : UrlParser.Parser (State -> c) c
 urlParser =
     UrlParser.oneOf
-        [ UrlParser.map (Create Creator.Top) UrlParser.top
+        [ UrlParser.map Home UrlParser.top
+        , UrlParser.map Home (UrlParser.s "home")
         , UrlParser.map (Create Creator.Top) (UrlParser.s "creator")
         , UrlParser.map (Admin Administrator.Top) (UrlParser.s "admin")
         ]
@@ -48,6 +50,9 @@ path state =
 
         Create _ ->
             "#/creator"
+
+        Home ->
+            "#/home"
 
         Error _ ->
             "#/invalid"

@@ -57,7 +57,7 @@ tab model args =
             , onClick args.msg
             ]
             [ Html.button
-                [ class (String.join " " [ "is-family-secondary", "is-button-1", isActive model args.state ])
+                [ class (String.join " " [ "has-font-1", "is-button-1", isActive model args.state ])
                 ]
                 [ Html.text args.title
                 ]
@@ -81,6 +81,9 @@ isActive model state =
                     ""
 
         Admin _ ->
+            ""
+
+        Home ->
             ""
 
         Error _ ->
