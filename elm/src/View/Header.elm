@@ -1,9 +1,8 @@
 module View.Header exposing (view)
 
 import Html exposing (Html)
-import Html.Attributes exposing (class, src, style, width)
+import Html.Attributes exposing (class, style)
 import Html.Events exposing (onClick)
-import Model.Creator as Creator
 import Model.Model exposing (Model)
 import Model.State as State exposing (State(..))
 import Msg.Msg exposing (Msg(..))
@@ -16,25 +15,43 @@ view model =
         tab_ =
             tab model
     in
-    Html.nav
-        [ class "is-navbar"
+    Html.div
+        [ class "is-navbar has-font-1"
         ]
-        [ tab_
-            { state = Create Creator.Top
-            , title = "Create"
-            , msg = NoOp
-            }
-        , Html.div
-            [ style "float" "right"
+        [ Html.nav
+            [ class "level mx-6 my-3"
             ]
-            [ Html.a
-                [ State.href <| Create Creator.Top
+            [ Html.div
+                [ class "level-left"
                 ]
-                [ Html.img
-                    [ src "images/logo/02_somos.png"
-                    , width 50
+                [ Html.div
+                    [ class "level-item"
                     ]
-                    []
+                    [ Html.div
+                        [ class "is-size-1"
+                        ]
+                        [ Html.text "Plaza"
+                        ]
+                    ]
+                ]
+            , Html.div
+                [ class "level-right has-font-3 is-size-3"
+                ]
+                [ Html.div
+                    [ class "level-item pr-6"
+                    ]
+                    [ Html.text "quero vender"
+                    ]
+                , Html.div
+                    [ class "level-item pr-6"
+                    ]
+                    [ Html.text "registre-se"
+                    ]
+                , Html.div
+                    [ class "level-item"
+                    ]
+                    [ Html.text "carrinho"
+                    ]
                 ]
             ]
         ]

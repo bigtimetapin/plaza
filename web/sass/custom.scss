@@ -41,15 +41,25 @@ $family-secondary: "Press Start 2P", BlinkMacSystemFont, -apple-system, "Helveti
 }
 
 @font-face {
+  font-family: AppleGaramondBold;
+  src: url("../fonts/AppleGaramond-Bold.ttf") format("truetype");
+}
+
+@font-face {
   font-family: AppleGaramondLight;
   src: url("../fonts/AppleGaramond-Light.ttf") format("truetype");
 }
 
 .has-font-1 {
   font-family: AppleGaramond, sans-serif;
+
 }
 
 .has-font-2 {
+  font-family: AppleGaramondBold, sans-serif;
+}
+
+.has-font-3 {
   font-family: AppleGaramondLight, sans-serif;
 }
 
@@ -63,21 +73,46 @@ $family-secondary: "Press Start 2P", BlinkMacSystemFont, -apple-system, "Helveti
   color: transparent;
 }
 
-.has-off-white {
-  background-color: #FDF9EF;
+.has-white {
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
-.has-off-white-text {
-  color: #FDF9EF;
+.has-white-text {
+  color: #000000;
 }
 
 .has-black {
-  background-color: #241F20;
-  color: #FDF9EF;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 .has-black-text {
-  color: #241F20;
+  color: #000000;
+}
+
+.has-dark-gray {
+  background-color: #707070;
+}
+
+.has-dark-gray-text {
+  color: #707070;
+}
+
+.has-light-gray {
+  background-color: #C3C3C3;
+}
+
+.has-light-gray-text {
+  color: #C3C3C3;
+}
+
+.has-yellow {
+  background-color: #F9FD5F;
+}
+
+.has-yellow-text {
+  color: #F9FD5F;
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -89,7 +124,7 @@ $family-secondary: "Press Start 2P", BlinkMacSystemFont, -apple-system, "Helveti
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // borders /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .has-border-1 {
-  border-bottom: 1px solid #FDF9EF;
+  border-bottom: 1px solid #707070;
 }
 
 .has-border-2 {
@@ -103,7 +138,10 @@ $family-secondary: "Press Start 2P", BlinkMacSystemFont, -apple-system, "Helveti
   width: 100%; /* Full width */
   z-index: 101;
   // blend in
-  background-color: #241F20;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #707070;
+  border-left: 1px solid #707070;
+  border-right: 1px solid #707070;
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -157,6 +195,10 @@ $family-secondary: "Press Start 2P", BlinkMacSystemFont, -apple-system, "Helveti
 // navbar
 $navbar-item-img-max-height: 4.00rem;
 $navbar-height: 4.00rem;
+$size-1: 8.50rem;
+$size-2: 4.00rem;
+$size-3: 1.00rem;
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /// Bulma Import ///////////////////////////////////////////////////////////////////////////////////////////////////////
