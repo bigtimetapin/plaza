@@ -40,6 +40,19 @@ view model =
                 [ Html.div
                     [ class "level-item pr-6"
                     ]
+                    [ Html.div
+                        [ class "is-search-bar-1"
+                        ]
+                        [ Html.div
+                            [ class "has-dark-gray-text ml-2"
+                            ]
+                            [ Html.text "buscar artista"
+                            ]
+                        ]
+                    ]
+                , Html.div
+                    [ class "level-item pr-6"
+                    ]
                     [ Html.text "quero vender"
                     ]
                 , Html.div
