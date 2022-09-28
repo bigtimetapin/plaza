@@ -159,6 +159,13 @@ $family-secondary: "Press Start 2P", BlinkMacSystemFont, -apple-system, "Helveti
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // buttons /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.is-product-1 {
+  border: 1px solid #707070;
+  height: 22.50rem;
+  width: 18.50rem;
+  position: relative;
+}
+
 .is-button-1, .is-button-2, .is-button-3 {
   height: 30px;
   text-align: center;
@@ -220,7 +227,7 @@ $size-1: 8.50rem;
 $size-2: 4.00rem;
 $size-3: 2.25rem;
 $size-4: 1.75rem;
-$spacing-values: ("small": 1.00rem, "medium": 2.50rem, "large": 7.50rem);
+$spacing-values: ("xxsmall": 0.50rem, "xsmall": 0.75rem, "small": 1.85rem, "medium": 2.50rem, "large": 7.50rem);
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

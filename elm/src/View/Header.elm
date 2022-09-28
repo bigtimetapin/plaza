@@ -19,7 +19,7 @@ view model =
         [ class "is-navbar"
         ]
         [ Html.nav
-            [ class "level is-navbar-child my-3"
+            [ class "level is-navbar-child"
             ]
             [ Html.div
                 [ class "level-left"
@@ -38,25 +38,25 @@ view model =
                 [ class "level-right has-font-3 is-size-4"
                 ]
                 [ Html.div
-                    [ class "level-item pr-6"
+                    [ class "level-item pr-medium"
                     ]
                     [ Html.div
                         [ class "is-search-bar-1"
                         ]
                         [ Html.div
-                            [ class "has-dark-gray-text ml-2"
+                            [ class "has-dark-gray-text ml-xxsmall"
                             ]
                             [ Html.text "buscar artista"
                             ]
                         ]
                     ]
                 , Html.div
-                    [ class "level-item pr-6"
+                    [ class "level-item pr-medium"
                     ]
                     [ Html.text "quero vender"
                     ]
                 , Html.div
-                    [ class "level-item pr-6"
+                    [ class "level-item pr-medium"
                     ]
                     [ Html.text "registre-se"
                     ]
