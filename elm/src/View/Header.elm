@@ -19,9 +19,7 @@ view model =
         [ class "is-navbar"
         ]
         [ Html.nav
-            [ class "level my-3"
-            , style "margin-left" "3rem"
-            , style "margin-right" "3rem"
+            [ class "level is-navbar-child my-3"
             ]
             [ Html.div
                 [ class "level-left"

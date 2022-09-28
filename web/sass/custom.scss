@@ -144,6 +144,19 @@ $family-secondary: "Press Start 2P", BlinkMacSystemFont, -apple-system, "Helveti
   border-right: 1px solid #707070;
 }
 
+.is-navbar-child, .is-hero-body {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.is-hero-body {
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // buttons /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .is-button-1, .is-button-2, .is-button-3 {

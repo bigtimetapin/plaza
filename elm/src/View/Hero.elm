@@ -19,7 +19,7 @@ view model body =
             [ View.Header.view model
             ]
         , Html.div
-            [ class "hero-body"
+            [ class "is-hero-body"
             ]
             [ body
             ]
