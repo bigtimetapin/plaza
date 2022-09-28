@@ -35,7 +35,7 @@ view model =
                     ]
                 ]
             , Html.div
-                [ class "level-right has-font-3 is-size-3"
+                [ class "level-right has-font-3 is-size-4"
                 ]
                 [ Html.div
                     [ class "level-item pr-6"
