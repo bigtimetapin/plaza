@@ -232,7 +232,6 @@ $size-5: 2.75rem;
 $size-6: 2.25rem;
 
 $size-7: 2.00rem;
-$size-8: 1.75rem;
 
 
 $spacing-values: (
@@ -259,6 +258,15 @@ $spacing-values: (
   }
   @include from($tablet) {
     width: 18rem;
+  }
+}
+
+.is-size-8 {
+  @include until($tablet) {
+    font-size: 1.75rem;
+  }
+  @include from($tablet) {
+    font-size: 2.00rem;
   }
 }
 

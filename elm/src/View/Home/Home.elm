@@ -11,12 +11,12 @@ body =
         [ class "mt-large"
         ]
         [ Html.div
-            [ class "is-size-2 mb-medium mt-large"
+            [ class "is-size-3-desktop is-size-4-touch mb-medium mt-large"
             ]
             [ Html.text "onde artistas vestem"
             ]
         , Html.div
-            [ class "is-size-3"
+            [ class "is-size-5-desktop is-size-6-touch"
             ]
             [ Html.div
                 [ class "mb-small"
@@ -25,7 +25,7 @@ body =
                 ]
             ]
         , Html.div
-            [ class "columns is-multiline is-size-4"
+            [ class "columns is-multiline is-size-8"
             ]
             [ product
             , product

@@ -28,14 +28,14 @@ view model =
                     [ class "level-item"
                     ]
                     [ Html.div
-                        [ class "is-size-1"
+                        [ class "is-size-1-desktop is-size-2-touch"
                         ]
                         [ Html.text "Plaza"
                         ]
                     ]
                 ]
             , Html.div
-                [ class "level-right has-font-3 is-size-7"
+                [ class "level-right has-font-3 is-size-8"
                 ]
                 [ Html.div
                     [ class "level-item pr-xmedium"
