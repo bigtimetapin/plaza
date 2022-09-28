@@ -205,7 +205,6 @@ $family-secondary: "Press Start 2P", BlinkMacSystemFont, -apple-system, "Helveti
 // forms ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .is-search-bar-1 {
   border: 1px solid #707070;
-  width: 15rem;
   margin-top: 0.25rem;
 }
 
@@ -223,11 +222,27 @@ $family-secondary: "Press Start 2P", BlinkMacSystemFont, -apple-system, "Helveti
 // navbar
 $navbar-item-img-max-height: 4.00rem;
 $navbar-height: 4.00rem;
-$size-1: 8.50rem;
-$size-2: 4.00rem;
-$size-3: 2.25rem;
-$size-4: 1.75rem;
-$spacing-values: ("xxsmall": 0.50rem, "xsmall": 0.75rem, "small": 1.85rem, "medium": 2.50rem, "large": 7.50rem);
+$size-1: 11.50rem;
+$size-2: 8.50rem;
+
+$size-3: 5.00rem;
+$size-4: 4.00rem;
+
+$size-5: 2.75rem;
+$size-6: 2.25rem;
+
+$size-7: 2.00rem;
+$size-8: 1.75rem;
+
+
+$spacing-values: (
+        "xxsmall": 0.50rem,
+        "xsmall": 0.75rem,
+        "small": 1.85rem,
+        "medium": 2.50rem,
+        "xmedium": 3.50rem,
+        "large": 7.50rem
+);
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -238,12 +253,12 @@ $spacing-values: ("xxsmall": 0.50rem, "xsmall": 0.75rem, "small": 1.85rem, "medi
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /// Bulma Extensions ///////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-.has-font-1 {
+.is-search-bar-1 {
   @include until($tablet) {
-    font-size: small;
+    width: 15rem;
   }
   @include from($tablet) {
-    font-size: medium;
+    width: 18rem;
   }
 }
 

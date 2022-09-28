@@ -35,10 +35,10 @@ view model =
                     ]
                 ]
             , Html.div
-                [ class "level-right has-font-3 is-size-4"
+                [ class "level-right has-font-3 is-size-7"
                 ]
                 [ Html.div
-                    [ class "level-item pr-medium"
+                    [ class "level-item pr-xmedium"
                     ]
                     [ Html.div
                         [ class "is-search-bar-1"
@@ -51,12 +51,12 @@ view model =
                         ]
                     ]
                 , Html.div
-                    [ class "level-item pr-medium"
+                    [ class "level-item pr-xmedium"
                     ]
                     [ Html.text "quero vender"
                     ]
                 , Html.div
-                    [ class "level-item pr-medium"
+                    [ class "level-item pr-xmedium"
                     ]
                     [ Html.text "registre-se"
                     ]
