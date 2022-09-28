@@ -16,10 +16,12 @@ view model =
             tab model
     in
     Html.div
-        [ class "is-navbar has-font-1"
+        [ class "is-navbar"
         ]
         [ Html.nav
-            [ class "level mx-6 my-3"
+            [ class "level my-3"
+            , style "margin-left" "3rem"
+            , style "margin-right" "3rem"
             ]
             [ Html.div
                 [ class "level-left"

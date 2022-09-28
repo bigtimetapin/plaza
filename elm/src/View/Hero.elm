@@ -11,7 +11,7 @@ import View.Header
 view : Model -> Html Msg -> Html Msg
 view model body =
     Html.section
-        [ class "hero is-fullheight has-white"
+        [ class "hero is-fullheight has-white has-font-1"
         ]
         [ Html.div
             [ class "hero-head"

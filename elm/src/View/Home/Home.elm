@@ -8,8 +8,7 @@ import Msg.Msg exposing (Msg)
 body : Html Msg
 body =
     Html.div
-        [ class "container"
-        ]
+        []
         [ Html.div
             [ class "has-font-2"
             ]
