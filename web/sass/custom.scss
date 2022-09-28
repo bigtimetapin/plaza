@@ -161,8 +161,8 @@ $family-secondary: "Press Start 2P", BlinkMacSystemFont, -apple-system, "Helveti
 // buttons /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .is-product-1 {
   border: 1px solid #707070;
-  height: 22.50rem;
-  width: 18.50rem;
+  height: 26.75rem; // TODO; responsive
+  width: 23.15rem; // TODO; responsive
   position: relative;
 }
 
