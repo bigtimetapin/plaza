@@ -34,6 +34,7 @@ body =
             ]
         ]
 
+
 product =
     Html.div
         [ class "column is-one-fourth is-product-1 has-font-3"
